@@ -71,7 +71,7 @@
                       osProject.node.fullRepoName
                     }/pulls?q=is%3Apr+author%3Armaes4+is%3Aclosed`
                   "
-                  ><v-icon>mdi-github</v-icon></v-btn
+                  ><v-icon>{{ svgGithub }}</v-icon></v-btn
                 >
               </v-card-text>
             </v-card>
@@ -100,7 +100,12 @@ query {
 </static-query>
 
 <script>
-export default {};
+import { mdiGithub, mdiStackOverflow } from "@mdi/js";
+export default {
+  data: () => ({
+    svgGithub: mdiGithub,
+  }),
+};
 </script>
 
 <style scoped>

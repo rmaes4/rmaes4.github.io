@@ -9,12 +9,6 @@ export default function(Vue, { router, head, isClient, appOptions }) {
   head.link.push({
     rel: "stylesheet",
     href:
-      "https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css",
-  });
-
-  head.link.push({
-    rel: "stylesheet",
-    href:
       "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
   });
 
@@ -31,7 +25,11 @@ export default function(Vue, { router, head, isClient, appOptions }) {
     });
   }
 
-  const opts = {};
+  const opts = {
+    icons: {
+      iconfont: "mdiSvg",
+    },
+  };
 
   Vue.use(Vuetify);
 

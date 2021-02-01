@@ -24,7 +24,7 @@
               dark
               href="https://github.com/rmaes4"
               target="_blank"
-              >Github<v-icon right color="white">mdi-github</v-icon></v-btn
+              >Github<v-icon right color="white">{{ svgGithub }}</v-icon></v-btn
             >
             <v-btn
               small
@@ -32,9 +32,9 @@
               dark
               href="https://stackoverflow.com/users/1148882/rmaes4"
               target="_blank"
-              >stackoverflow<v-icon right color="white"
-                >mdi-stack-overflow</v-icon
-              ></v-btn
+              >stackoverflow<v-icon right color="white">{{
+                svgStackOverflow
+              }}</v-icon></v-btn
             >
           </v-card-actions>
         </v-card>
@@ -169,6 +169,7 @@ query {
 </static-query>
 
 <script>
+import { mdiGithub, mdiStackOverflow } from "@mdi/js";
 export default {
   computed: {
     age: () => {
@@ -177,6 +178,10 @@ export default {
       );
     },
   },
+  data: () => ({
+    svgGithub: mdiGithub,
+    svgStackOverflow: mdiStackOverflow,
+  }),
 };
 </script>
 
