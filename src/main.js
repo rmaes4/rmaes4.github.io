@@ -24,8 +24,8 @@ export default function(Vue, { router, head, isClient, appOptions }) {
   });
 
   // enable vue devtools in dev mode
-  console.log(process.env.GRIDSOME_ENV);
-  if (process.env.NODE_ENV == "dev") {
+  if (process.env.GRIDSOME_ENV === "dev") {
+    console.log("loading devtools");
     head.script.push({
       src: "http://localhost:8098",
     });
