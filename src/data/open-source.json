@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "repoName": "Tiled",
+    "fullRepoName": "mapeditor/tiled",
+    "description": "A flexible level editor",
+    "contribution": "Added support for parsing objects with floating point positions",
+    "language": "Java",
+    "image": "tiled.png"
+  },
+  {
+    "id": 2,
+    "repoName": "SoundCleod",
+    "fullRepoName": "salomvary/soundcleod",
+    "description": "SoundCloud for macOS and Windows",
+    "contribution": "Added album art to notifications, a like/dislike option, a repost option and full Mac touchbar support",
+    "language": "JavaScript",
+    "image": "soundcleod.svg"
+  },
+  {
+    "id": 3,
+    "repoName": "RuneLite",
+    "fullRepoName": "runelite/plugin-hub",
+    "description": "Open source Old School RuneScape client",
+    "contribution": "Added the ability for users to type prices in-game using decimals to save time",
+    "language": "Java",
+    "image": "runelite.png"
+  }
+]

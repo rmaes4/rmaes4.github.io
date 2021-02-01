@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Docker",
+    "color": "#384d54"
+  },
+  {
+    "id": 2,
+    "name": "AWS"
+  },
+  {
+    "id": 7,
+    "name": "Linux"
+  },
+  {
+    "id": 8,
+    "name": "Windows"
+  },
+  {
+    "id": 6,
+    "name": "MacOS"
+  },
+  {
+    "id": 10,
+    "name": "Android"
+  },
+  {
+    "id": 9,
+    "name": "iOS"
+  },
+  {
+    "id": 3,
+    "name": "Google Cloud Platform"
+  },
+  {
+    "id": 4,
+    "name": "Heroku"
+  },
+  {
+    "id": 5,
+    "name": "Arduino"
+  }
+]

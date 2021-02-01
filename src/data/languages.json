@@ -1,0 +1,68 @@
+[
+  {
+    "id": 11,
+    "name": "Swift",
+    "color": "#ffac45",
+    "dark": false
+  },
+  {
+    "id": 8,
+    "name": "Kotlin",
+    "color": "#F18E33",
+    "dark": true
+  },
+  {
+    "id": 5,
+    "name": "Python",
+    "color": "#3572A5",
+    "dark": true
+  },
+  {
+    "id": 10,
+    "name": "PHP",
+    "color": "#4F5D95",
+    "dark": true
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "color": "#f1e05a",
+    "dark": false
+  },
+  {
+    "id": 1,
+    "name": "TypeScript",
+    "color": "#2b7489",
+    "dark": true
+  },
+  {
+    "id": 6,
+    "name": "Java",
+    "color": "#b07219",
+    "dark": true
+  },
+  {
+    "id": 7,
+    "name": "C++",
+    "color": "#f34b7d",
+    "dark": true
+  },
+  {
+    "id": 3,
+    "name": "HTML",
+    "color": "#e34c26",
+    "dark": true
+  },
+  {
+    "id": 4,
+    "name": "CSS",
+    "color": "#563d7c",
+    "dark": true
+  },
+  {
+    "id": 9,
+    "name": "SQL",
+    "color": "",
+    "dark": true
+  }
+]
