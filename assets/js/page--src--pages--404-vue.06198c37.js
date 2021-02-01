@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"7l0S":function(t,n,e){"use strict";e.r(n);var o={mounted:function(){window.location.href="https://www.robmaes.com"}},i=e("KHd+"),s=Object(i.a)(o,(function(){var t=this.$createElement;return(this._self._c||t)("div",[this._v("404")])}),[],!1,null,"78772b6e",null);n.default=s.exports}}]);
