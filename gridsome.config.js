@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: "Rob Maes",
-  siteUrl: "https://robmaes.com",
+  siteUrl: "https://www.robmaes.com",
   plugins: [
     {
       use: "@gridsome/plugin-google-analytics",
@@ -15,7 +15,4 @@ module.exports = {
       },
     },
   ],
-  chainWebpack: (config) => {
-    config.resolve.alias.set("@images", "~/assets");
-  },
 };
