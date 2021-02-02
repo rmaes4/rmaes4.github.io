@@ -9,7 +9,7 @@
     "id": 8,
     "name": "Kotlin",
     "color": "#F18E33",
-    "dark": true
+    "dark": false
   },
   {
     "id": 5,
@@ -39,19 +39,19 @@
     "id": 6,
     "name": "Java",
     "color": "#b07219",
-    "dark": true
+    "dark": false
   },
   {
     "id": 7,
     "name": "C++",
     "color": "#f34b7d",
-    "dark": true
+    "dark": false
   },
   {
     "id": 3,
     "name": "HTML",
     "color": "#e34c26",
-    "dark": true
+    "dark": false
   },
   {
     "id": 4,

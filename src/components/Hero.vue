@@ -2,11 +2,16 @@
   <v-container id="hero" fluid class="pa-10">
     <v-row justify="center" align="center">
       <v-avatar size="200" id="profile">
-        <g-image src="~/assets/profile.jpg" width="200" />
+        <g-image
+          src="~/assets/profile.jpg"
+          width="200"
+          height="200"
+          alt="A picture of Rob Maes"
+        />
       </v-avatar>
       <v-col cols="auto">
         <div class="text-h3 alt-font font-weight-bold">Rob Maes</div>
-        <div id="tagline" class="text-subtitle-1 pl-1">
+        <div id="tagline" class="text-subtitle-1 pl-1 font-weight-bold">
           Self-taught developer and lover of all things tech
         </div>
       </v-col>

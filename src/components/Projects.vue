@@ -26,18 +26,24 @@
                   v-if="osProject.node.id == 1"
                   src="~/assets/tiled.png"
                   height="75"
+                  width="75"
+                  alt="Tiled project logo"
                 />
                 <g-image
                   fit="inside"
                   v-if="osProject.node.id == 2"
                   src="~/assets/soundcleod.svg"
                   height="75"
+                  width="75"
+                  alt="Soundcleod project logo"
                 />
                 <g-image
                   fit="inside"
                   v-if="osProject.node.id == 3"
                   src="~/assets/runelite.png"
                   height="75"
+                  width="75"
+                  alt="Runelite project logo"
                 />
               </v-avatar>
             </template>
@@ -52,27 +58,38 @@
               </v-card-subtitle>
               <v-card-text class="white text--primary">
                 <p class="pt-2">{{ osProject.node.contribution }}</p>
-                <v-chip
-                  label
-                  class="alt-font font-weight-bold"
-                  :href="
-                    `https://github.com/rmaes4?tab=repositories&q=&type=&language=${
-                      osProject.node.language
-                    }`
-                  "
-                  >{{ osProject.node.language }}</v-chip
-                >
-                <v-btn
-                  fab
-                  x-small
-                  class="ml-2"
-                  :href="
-                    `https://github.com/${
-                      osProject.node.fullRepoName
-                    }/pulls?q=is%3Apr+author%3Armaes4+is%3Aclosed`
-                  "
-                  ><v-icon>{{ svgGithub }}</v-icon></v-btn
-                >
+                <v-row no-gutters justify="start" align="end">
+                  <v-col cols="12" md="auto">
+                    <v-chip
+                      label
+                      class="alt-font font-weight-bold"
+                      target="_blank"
+                      rel="noopener"
+                      :href="
+                        `https://github.com/rmaes4?tab=repositories&q=&type=&language=${
+                          osProject.node.language
+                        }`
+                      "
+                      >{{ osProject.node.language }}</v-chip
+                    ></v-col
+                  >
+                  <v-spacer></v-spacer>
+                  <v-col cols="12" md="auto"
+                    ><v-btn
+                      small
+                      class="mt-1"
+                      target="_blank"
+                      rel="noopener"
+                      :href="
+                        `https://github.com/${
+                          osProject.node.fullRepoName
+                        }/pulls?q=is%3Apr+author%3Armaes4+is%3Aclosed`
+                      "
+                      ><v-icon left>{{ svgGithub }}</v-icon
+                      >Github</v-btn
+                    ></v-col
+                  >
+                </v-row>
               </v-card-text>
             </v-card>
           </v-timeline-item>

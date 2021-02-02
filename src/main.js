@@ -9,12 +9,18 @@ export default function(Vue, { router, head, isClient, appOptions }) {
   head.link.push({
     rel: "stylesheet",
     href:
-      "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900",
+      "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap",
   });
 
   head.link.push({
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700",
+    href:
+      "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap",
+  });
+
+  head.meta.push({
+    name: "description",
+    content: "Self-taught developer and lover of all things tech",
   });
 
   // enable vue devtools in dev mode

@@ -24,15 +24,17 @@
               dark
               href="https://github.com/rmaes4"
               target="_blank"
+              rel="noopener"
               >Github<v-icon right color="white">{{ svgGithub }}</v-icon></v-btn
             >
             <v-btn
               small
               color="rgb(244, 128, 36)"
-              dark
+              light
               href="https://stackoverflow.com/users/1148882/rmaes4"
               target="_blank"
-              >stackoverflow<v-icon right color="white">{{
+              rel="noopener"
+              >stackoverflow<v-icon right color="black">{{
                 svgStackOverflow
               }}</v-icon></v-btn
             >
